@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/maytinh.css">
+    <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container py-5 my-5">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <form>
+                    <label for="sc"></label>
+                    <input type="text" id="sc" class="py-2 w-100" value="">
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-3">
+                        <form>
+                            <label for="can"></label>
+                            <input type="button" value="sqrt " id="can" class="py-2 w-100" onclick="addNumber(this.value); toantu(this.id)">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form>
+                            <label for="mu"></label>
+                            <input type="button" value="^" id="mu" class="py-2 w-100" onclick="addNumber(this.value); toantu(this.id)">
+                        </form>
+                    </div>
+                    <div class=" col-3 ">
+                        <form>
+                            <label for="chiadu"></label>
+                            <input type="button" value="%" id="chiadu" class="py-2 w-100 " onclick="addNumber(this.value); toantu(this.id)">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form>
+                            <label for="clear"></label>
+                            <input type="button" value="C" id="clear" class="py-2 w-100" onclick="xoa()">
+                        </form>
+                    </div>
+                </div>
+                <div class=" row ">
+                    <div class="col-3 ">
+                        <form>
+                            <label for="7"></label>
+                            <input type="button" value="7" id="7" class="py-2 w-100 " onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class="col-3 ">
+                        <form>
+                            <label for="8 "></label>
+                            <input type="button" value="8" id="8" class="py-2 w-100 " onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form>
+                            <label for="9"></label>
+                            <input type="button" value="9" id="9" class="py-2 w-100" onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class=" col-3 ">
+                        <form>
+                            <label for="chia"></label>
+                            <input type="button" value="/" id="chia" class="py-2 w-100 " onclick="addNumber(this.value); toantu(this.id)">
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <form>
+                            <label for="4"></label>
+                            <input type="button" value="4" id="4" class="py-2 w-100" onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class=" col-3">
+                        <form>
+                            <label for="5"></label>
+                            <input type="button" value="5" id="5" class="py-2 w-100" onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form>
+                            <label for="6"></label>
+                            <input type="button" value="6" id="6" class="py-2 w-100" onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class=" col-3">
+                        <form>
+                            <label for="nhan "></label>
+                            <input type="button" value="x" id="nhan" class="py-2 w-100 " onclick="addNumber(this.value); toantu(this.id)">
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <form>
+                            <label for="1"></label>
+                            <input type="button" value="1" id="1" class="py-2 w-100" onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class=" col-3 ">
+                        <form>
+                            <label for="2 "></label>
+                            <input type="button" value="2" id="2" class="py-2 w-100 " onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form>
+                            <label for="3"></label>
+                            <input type="button" value="3" id="3" class="py-2 w-100" onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class=" col-3 ">
+                        <form>
+                            <label for="tru"></label>
+                            <input type="button" value="-" id="tru" class="py-2 w-100" onclick="addNumber(this.value); toantu(this.id)">
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <form>
+                            <label for="0"></label>
+                            <input type="button" value="0" id="0" class="py-2 w-100" onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class=" col-3">
+                        <form>
+                            <label for="cham"></label>
+                            <input type="button" value="." id="cham" class="py-2 w-100" onclick="addNumber(this.value)">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form>
+                            <label for="cong"></label>
+                            <input type="button" value="+" id="cong" class="py-2 w-100" onclick="addNumber(this.value); toantu(this.id)">
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <form>
+                            <label for="bang"></label>
+                            <input type="button" value="=" id=" bang" class="py-2 w-100 " onclick="addNumber(this.value);tinh()">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/maytinh.js "></script>
+    <script src="./bootstrap-4.0.0-dist/js/bootstrap.min.js "></script>
+    <script src="./js/jquery-3.3.1.min.js "></script>
+    <script src="./js/popper.min.js "></script>
+</body>
+
+</html>

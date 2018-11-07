@@ -1,0 +1,16 @@
+<div class="menu">
+        <div class="container-fluid" style="padding :0">
+            <div class="row justify-content-between">
+                <div class="col-12 col-sm px-3 py-2">
+                    <a href="#" class="px-3 py-2 text">Gourmet au Catering</a>
+                </div>
+                <div class="row">
+                    <div class="col-12  col-sm d-none d-sm-block  py-2">
+                        <a href="#" class="px-3 py-2 text">About</a>
+                        <a href="#" class="px-3 py-2 text">Menu</a>
+                        <a href="#" class="px-3 py-2 text">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
